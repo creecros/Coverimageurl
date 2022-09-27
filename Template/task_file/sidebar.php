@@ -78,7 +78,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <button class="open-button" id="cvrimgopen"><i class="fa fa-image fa-fw" aria-hidden="true"></i> + Cover Image URL</button>
 
 <div class="form-popup" id="myForm">
-  <form method="POST" action="<?= $this->url->href('CoverimageurlController', 'set', ['plugin' => 'coverimage', 'task_id' => $task['id'], 'project_id' => $task['project_id']]) ?>" class="form-container" autocomplete="off">
+  <form method="POST" action="<?= $this->url->href('CoverimageurlController', 'set', ['plugin' => 'coverimageurl', 'task_id' => $task['id'], 'project_id' => $task['project_id']]) ?>" class="form-container" autocomplete="off">
     <h1>Cover Image URL</h1>
 
     <label for="form-url_link"><b>URL</b></label>
